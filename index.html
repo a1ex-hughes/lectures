@@ -1,0 +1,71 @@
+<!-- SAVE THIS AS: index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Lectures - Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 min-h-screen">
+    <div class="container mx-auto px-4 py-12">
+        <header class="text-center mb-12">
+            <h1 class="text-5xl font-bold text-white mb-4">My Lectures</h1>
+            <p class="text-slate-300 text-lg">Academic Year 2024-2025</p>
+        </header>
+
+        <!-- Quick Start Card -->
+        <div class="max-w-2xl mx-auto mb-12 p-8 bg-blue-900/30 border border-blue-500/50 rounded-lg">
+            <h2 class="text-2xl font-semibold text-white mb-4">🚀 Quick Start</h2>
+            <ol class="text-slate-300 space-y-2 list-decimal list-inside">
+                <li>Use the viewer below to convert and view slides</li>
+                <li>Create folders for your modules (e.g., <code class="bg-slate-800 px-2 py-1 rounded">modules/module-1/</code>)</li>
+                <li>Add links to your modules in the cards below</li>
+                <li>Share individual lecture URLs with students</li>
+            </ol>
+        </div>
+
+        <!-- Slide Viewer Tool -->
+        <div class="max-w-4xl mx-auto mb-12">
+            <div class="bg-slate-800 rounded-lg p-8 border border-slate-700">
+                <h2 class="text-2xl font-semibold text-white mb-4">📊 Slide Viewer</h2>
+                <p class="text-slate-400 mb-6">Upload a PDF or PPTX to view slides instantly</p>
+                <a href="viewer.html" class="inline-block px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-semibold transition-colors">
+                    Open Slide Viewer
+                </a>
+            </div>
+        </div>
+
+        <!-- Module Grid -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+            
+            <!-- Example Module 1 - Replace with your modules -->
+            <div class="p-6 bg-slate-800 rounded-lg border border-slate-700">
+                <div class="flex items-center justify-between mb-4">
+                    <h2 class="text-2xl font-semibold text-white">Module 1</h2>
+                    <span class="text-sm text-slate-500">Coming soon</span>
+                </div>
+                <h3 class="text-xl text-slate-300 mb-2">Your First Module</h3>
+                <p class="text-slate-400 text-sm mb-4">Add your module description here</p>
+                <button class="text-sm text-slate-500 cursor-not-allowed">
+                    No lectures yet
+                </button>
+            </div>
+
+            <!-- Add Module Button -->
+            <div class="p-6 bg-slate-800/50 rounded-lg border-2 border-dashed border-slate-700 flex items-center justify-center">
+                <div class="text-center">
+                    <div class="text-4xl mb-2">➕</div>
+                    <p class="text-slate-400 text-sm">Add more modules<br>by editing this page</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="mt-16 text-center text-slate-500 text-sm">
+            <p>Built with GitHub Pages • <a href="https://github.com/yourusername/lectures" class="text-blue-400 hover:text-blue-300">View Source</a></p>
+        </footer>
+    </div>
+</body>
+</html>
